@@ -80,4 +80,4 @@ getContours(imgCanny)
 imgStacked = stackImages(0.8, ([imgR, imgGray, imgBlur], [imgCanny, imgRCopy, imgBlank]))
 
 cv2.imshow("Stacked Images", imgStacked)
-cv2.waitKey(0)
+cv2.waitKey(0) //End of program 
